@@ -1,0 +1,162 @@
+html, body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0
+}
+
+h1 {
+    color: rgb(85, 172, 238);
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    margin-left: 265px;
+    margin-bottom: 25px
+}
+
+h2 {
+   color: #777
+}
+
+p, ul {
+    color: #555
+}
+
+article {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 25px;
+    float: left;
+}
+
+section {
+    margin-left: 240px;
+    margin-right: 10px;
+    background-color: #fcfcfc;
+    padding: 0 25px;
+    margin-bottom: 20px;
+    border: solid 1px #ccc
+}
+
+nav {
+    font-size: 14px;
+    display: inline-block;
+    position: fixed;
+    top: 40px;
+    left: 10px;
+    bottom: 10px;
+    border-top: none;
+    border-right: none;
+    padding: 0;
+    width: 200px;
+    margin-top: 13px
+}
+
+nav ul {
+    list-style: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    float: left;
+    width: 100%;
+}
+
+nav li {
+    float: left;
+    clear: both;
+    border-bottom: solid 1px #ccc;
+    width: 100%;
+}
+
+nav li  ul {
+    padding-left: 20px
+}
+
+nav li.container > a {
+    border-bottom: solid 1px #ccc;
+}
+
+nav li  ul li.last {
+    border: 0
+}
+
+nav a {
+    margin: 0;
+    padding: 0;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #555;
+}
+
+nav a:hover {
+    background-color: rgb(85, 172, 238);
+    color: #fff
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 14px
+}
+
+table td, table th {
+    padding: 10px;
+    border-bottom: solid 1px #ccc
+}
+
+table.inner {    
+    margin-top: 10px
+}
+
+span.param-name {
+    background-color: #fafafa;
+    color: orange;
+    padding: 5px;
+    border-radius: 5px
+}
+
+table.striped tbody > tr:nth-child(odd) {
+   background-color: #eee;
+}
+
+p.code {
+    margin: 30px 0 30px 0
+}
+
+pre, code {
+    background-color: #fff;
+    border: solid 1px #ccc;
+    padding: 10px;
+    font-size: 14px
+}
+
+pre {
+    display: inline-block
+}
+
+button {
+    border-radius: 3px;
+    padding: 7px 18px;
+    border: 0;
+    font-size: 15px
+}
+
+button.main {
+    background-color: rgb(85, 172, 238);
+    color: #fff;
+    border-bottom: solid 1px #555;
+}
+
+.bullet {
+    font-size: 31px;
+}
+
+.align-top {        
+    vertical-align: top
+}
+
+hr {
+    height: 0px;
+    border: 0;
+    border-top: solid 1px #ccc
+}
