@@ -1,7 +1,7 @@
 AjaxLoader.js
 =================
 
-Customazable animated waiting indicator without images
+Customizable animated waiting indicator without images
 
 <a href="http://mark-rolich.github.io/AjaxLoader.js/" target="_blank"><strong>Demo and documentation</strong></a>
 
